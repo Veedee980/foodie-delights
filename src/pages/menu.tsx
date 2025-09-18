@@ -28,9 +28,11 @@ import Drink4 from "../../public/drink1 (4).jpeg";
 import Drink5 from "../../public/drink1 (5).jpeg";
 import Drink6 from "../../public/drink1 (6).jpeg";
 
+import type { StaticImageData } from "next/image";
+
 const renderMenuItems = (
   category: string,
-  items: { img: any; name: string }[],
+  items: { img: StaticImageData; name: string }[],
   clipStyle: string
 ) => (
   <section className="py-12 px-6 bg-[#222] text-[#F5F1E9]">
@@ -74,7 +76,7 @@ export default function Menu() {
           Our Full Menu
         </h1>
         <p className="relative max-w-3xl text-lg text-[#F5F1E9] z-10">
-          Explore our delicious selection of dishes – from sweet to savory, light to hearty.
+          Explore our delicious selection of dishes from sweet to savory, light to hearty.
         </p>
       </section>
 

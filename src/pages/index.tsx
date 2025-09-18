@@ -28,7 +28,7 @@ export default function Home() {
           Welcome to Foodie Delight
         </h2>
         <p className="text-lg md:text-xl text-[#F5F1E9] leading-relaxed">
-          Discover flavors from around the world. Fresh recipes, hearty meals, and dishes that bring people together. Whether you're a pro or a beginner, there's something delicious here for you.
+          Discover flavors from around the world. Fresh recipes, hearty meals, and dishes that bring people together. Whether you are a pro or a beginner, there is something delicious here for you.
         </p>
       </section>
 
@@ -41,7 +41,7 @@ export default function Home() {
           {[
             ["“This site helped me start cooking for my family. The steps are so easy to follow!”", "Thando M."],
             ["“Absolutely love the photography and layout. Makes me hungry every time!”", "Rue M."],
-            ["“I found healthy recipes that don’t taste boring. 10/10!”", "Brian T."]
+            ["“I found healthy recipes that don not taste boring. 10/10!”", "Brian T."]
           ].map(([quote, name], i) => (
             <div
               key={i}

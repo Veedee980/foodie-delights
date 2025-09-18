@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import HeroBg from "../../public/home-bg.jpg";
+import Link from "next/link";
 
 export default function About() {
   return (
@@ -62,12 +63,12 @@ export default function About() {
         <p className="mb-10 max-w-xl mx-auto text-lg">
           Experience the magic of Foodie Delight. Come taste the joy for yourself!
         </p>
-        <a
+        <Link
           href="/contact"
           className="bg-black font-semibold px-8 py-3 rounded-lg hover:bg-gray-900 transition"
         >
           Get in Touch
-        </a>
+        </Link>
       </section>
     </div>
   );

@@ -25,7 +25,7 @@ export default function Contact() {
           Get in Touch
         </h2>
         <p className="text-lg md:text-xl text-[#F5F1E9] leading-relaxed mb-8">
-          Have questions, feedback, or want to say hello? We love to hear from you! Fill out the form below and we'll get back to you as soon as possible.
+          Have questions, feedback, or want to say hello? We love to hear from you! Fill out the form below and we will get back to you as soon as possible.
         </p>
         <form className="max-w-xl mx-auto flex flex-col gap-6 text-left">
           <label className="block">
