@@ -28,7 +28,7 @@ export default function About() {
           At Foodie Delight, we believe that great food brings people together. Founded with a passion for culinary excellence, our cafe offers a warm, inviting space where you can enjoy fresh, flavorful dishes inspired by global cuisines. From hearty breakfasts to decadent desserts, every meal is crafted with love and the finest ingredients.
         </p>
         <p className="text-lg md:text-xl text-[#F5F1E9] leading-relaxed">
-          Whether you're grabbing a quick bite or savoring a leisurely meal, our team is dedicated to making every visit memorable. Join us in celebrating the joy of good food and great company.
+          Whether you are grabbing a quick bite or savoring a leisurely meal, our team is dedicated to making every visit memorable. Join us in celebrating the joy of good food and great company.
         </p>
       </section>
 
